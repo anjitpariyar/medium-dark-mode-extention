@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Medium Custom Style",
+  "version": "1.0",
+  "description": "Overrides specific CSS classes on Medium",
+  "permissions": ["activeTab"],
+  "host_permissions": ["*://medium.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://medium.com/*"],
+      "css": ["./styles.css"]
+    }
+  ]
+}
