@@ -1,15 +1,18 @@
-.c {
+.c, .cx, .ct {
   background-color: rgb(36, 36, 36) !important;
 }
 
-.bk {
+.bk, :link, body, .bx, .ao {
   color: rgb(215, 215, 215) !important;
 }
 
-.cx {
-  background-color: rgb(89, 89, 89) !important;
-}
+
 
 .bb, .ow {
   background: rgb(0, 0, 0) !important;
+}
+
+.ic, .ii {
+  background: linear-gradient(90deg, rgba(36, 36, 36, 0) 0%, rgba(36, 36, 36, 0.75) 25%, rgba(36, 36, 36, 0.9) 50%, rgb(36, 36, 36) 75%);
+    background-color: rgba(0, 0, 0, 0);
 }
