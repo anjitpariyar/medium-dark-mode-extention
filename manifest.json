@@ -4,10 +4,11 @@
   "version": "1.0",
   "description": "Overrides specific CSS classes on Medium",
   "permissions": ["activeTab"],
-  "host_permissions": ["*://medium.com/*"],
+  "host_permissions": ["*://medium.com/*",
+"*://*.medium.com/*"],
   "content_scripts": [
     {
-      "matches": ["*://medium.com/*"],
+      "matches": ["*://medium.com/*","*://*.medium.com/*"],
       "css": ["./styles.css"]
     }
   ]
